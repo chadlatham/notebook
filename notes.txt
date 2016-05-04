@@ -13,7 +13,9 @@ atom notes.txt
 # Open notes.txt in the default application
 open notes.txt
 
+# Create a new file called notes.txt
 touch notes.txt
+
 mkdir notebook
 rm -1
 man rm(1)
