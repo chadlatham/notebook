@@ -1,0 +1,13 @@
+# configure git for first use with username and email
+git config --global user.name 'chadlatham'
+git config --global user.email 'chadlatham33@gmail.com'
+
+# initialize a git repository
+# create a .git folder in the current working directory
+git init
+
+# add files to the staging area
+git add <filename> <...>
+
+# to commit files from the staging area
+git commit -m 'Message text'
