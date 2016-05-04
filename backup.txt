@@ -1,0 +1,134 @@
+# Sends the output of history to grep and filters for Styles
+cat history.txt | grep 'Styles'
+
+# Copy notes.txt to copied.txt
+cp notes.txt copied.txt
+
+# Print out the contents of notes
+cat notes.txt
+
+# Open notes.txt in Atom
+atom notes.txt
+
+# Open notes.txt in the default application
+open notes.txt
+
+touch notes.txt
+mkdir notebook
+rm -1
+man rm(1)
+dfdsg
+rmdir notebook
+mkdir noteBook
+rmdir note\ book
+pwd
+cd note\ book
+mkdir note\ book
+pws
+man ls
+rmdir note
+rmdir book
+mkdir note book
+rmdir test
+mkdir Test
+mkdir test
+cd week1
+mkdir week1
+rmdir Week1
+man mkdir
+cd Week1
+mkdir Week1
+./
+.
+man rm
+cd Projects/
+tree -L 1
+tree
+cd ../..
+cd Library/iMovie/Sound\ Effects/
+cd
+cd Library/Application\ Support/App\ Store/../..
+cd /..
+cd ~
+nano
+nanl
+echo $PATH
+$PATH
+LA
+ls -A
+ls -a
+cd /
+cd projects
+tree -L 2
+man tree
+brew install tree
+man open
+open .
+ls -f
+id
+ls -l
+ls -n
+ls -Rhal
+ls -R
+ls -r Pictures/
+ls -e Pictures/
+ls -e
+ls -ee
+ls -d
+ls-d
+ls -halC
+ls -hal
+ls -A1 Pictures/
+la -A Pictures/
+ls -1 Pictures/
+la Pictures/
+la pic
+la -1 Pictures/
+ls -@ Pictures/
+ls -
+ls -@
+ls -l Desktop
+ls Desktop -l
+ls Desktop
+cat .config/fish/config.fish
+la .config/fish/functions/
+la .config/fish/
+la .config
+ls .config
+ll -a
+ls -lh
+ls -h
+ls -hl
+ls Pictures/ -hl
+cd .
+cd Development/
+cd Documents/
+rm ./Desktop/test.html
+touch ./desktop/test.html
+ls Desktop/
+rm ~/temp.html
+delete-or-exit temp.html
+delete temp.html
+del
+rd temp.html
+touch temp.html
+ls -L
+ls -help
+ls --help
+groups
+whoami
+open http://chadlatham.surge.sh
+surge
+git commit -m 'Add a CNAME'
+git add CNAME
+touch CNAME
+git commit -m 'Add a tiny web page'
+git add index.html
+open index.html
+atom .
+touch index.html
+git init
+cd chadlatham.surge.sh
+mkdir chadlatham.surge.sh
+cd ~/Projects
+mkdir ~/Projects
