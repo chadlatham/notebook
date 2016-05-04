@@ -11,3 +11,9 @@ git add <filename> <...>
 
 # to commit files from the staging area
 git commit -m 'Message text'
+
+# gitHub has its own copy of the .git repository
+
+# gitHub has its own branch called master that gets synchronized with the local master branch when when git push is called.
+
+# Further notes will be incorporated from Word....
