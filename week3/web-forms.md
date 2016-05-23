@@ -103,3 +103,6 @@ myForm.addEventListener('submit', function (event) {
 });
 
 Always perform server-side javascript validation to prevent browser manipulation from submitting forms without html validation.
+
+
+The action attribute on a form is where the navigation occurs after a submit event. It stores a URL.
