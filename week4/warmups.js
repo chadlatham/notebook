@@ -22,3 +22,11 @@ var rotate2 = function(arr, pos) {
 // rotate([1, 2, 3], 1);   // [3, 1, 2]
 // rotate([1, 2, 3], 2);   // [2, 3, 1]
 // rotate([1, 2, 3], 3);   // [1, 2, 3]
+
+var sameDigits = function(a, b) {
+  var numa = parseInt(a.toString().split('').sort().join(''));
+  var numb = parseInt(b.toString().split('').sort().join(''));
+  return numa === numb;
+}
+
+console.log(sameDigits(1230,321));
