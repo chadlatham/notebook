@@ -45,16 +45,18 @@ console.log(sameDigits(1230,00321));
 //
 // console.log(rounded); // [0, 2, 10, 3]
 
-var map = function(arr, callback) {
+var map = function(array, callback) {
   var result = [];
-  for (var item of arr) {
-    result.push(callback(item));
+  var element;
+  for (var index = 0; index < array.length; index++) {
+    element = array[index];
+    result.push(callback(element, index, array));
   }
   return result;
 }
 
-var round = fuction(num) {
+var round = function(num) {
   return Math.round(num);
-}
+};
 
-console.log(map([0.01, 2, 9.89, Math.PI], round);
+console.log(map([0.01, 2, 9.89, Math.PI], round));
