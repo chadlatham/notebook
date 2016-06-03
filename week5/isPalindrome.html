@@ -1,0 +1,17 @@
+<script>
+  // Spelled the same forward as backward
+  var isPalindrome = function(input) {
+    return input === reverse(input);
+  };
+
+  var reverse = function(input) {
+    var reversed = "";
+    for (var i = input.length -1; i >=0; i--) {
+      reversed += input[i];
+    }
+  };
+
+  var result = isPalindrome('a');
+
+  console.log(result);
+</script>

@@ -29,3 +29,32 @@ function filter(arr, predicate) {
 }
 
 console.log(winners); // [{ name: 'Katie', points: 240 }]
+
+// Write a function named `every` that takes two arguments.
+//   `arr` (array)
+//   `predicate` (function)
+//
+// Return `true` if the `predicate` function returns ​*truthy*​ for all elements of `arr`, otherwise return `false`. The `predicate` function is invoked with one argument.
+//
+//  `element` (anything)
+//
+
+function every (arr, predicate) {
+  for (var elem of arr) {
+    if (!predicate(elem)) { return false; }
+  }
+  return true;
+}
+// For example:
+var result = every([1, 2, 3], function(element) {
+  return element % 2 === 0;
+});
+
+
+console.log(result); // false
+
+result = every([2, 4, 6], function(element) {
+  return element % 2 === 0;
+});
+
+console.log(result); // true
