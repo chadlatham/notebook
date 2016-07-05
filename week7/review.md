@@ -57,6 +57,9 @@ next() is a function that passes control (synchronously) to the next middleware.
 
 body-parser - a node module middleware for building the res.body object after receiving the request.
 
+app.use(express.static('static')); - is great to server static html resources
+res.status(404).sendFile(path404); - useful as a guard for unfound pages
+
 morgan - a node module middleware for logging
 
 ##Thursday - RESTful design
