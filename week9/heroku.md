@@ -91,3 +91,9 @@ The below statements will generate secret keys on the local .env file and set an
 heroku config:set SESSION_SECRET=(openssl rand -hex 64)`
 
 If you add a .env file, you have to restart the server.
+
+******** If you have problems pushing, you can do:
+git push --force heroku master
+
+******** To connect the remote:
+heroku git:remote -a concertclue
