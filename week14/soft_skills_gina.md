@@ -3,12 +3,13 @@ Tell me about yourself...
   I'm a systems administrator who used scripting on the job to automate my work. I found that I really loved the problem solving and research involved in scripting, so I started studying programming several years ago. About 6 months ago I decided to make a career change and by enrolling in Galvanize and studying JavaScript and full-stack web development using the PEAN stack. I'm passionate about learning and solving problems with coding.
 
 Why are you making a career change?
-
+I've been involved in the computer industry since I graduated high school. While working in a Systems Admin role, I rediscovered the beauty of solving problems using code. I've been studying it for many years now and finally decided to make the change in careers by going to Galvanize to study web development.
 
 Why do you want to work here?
+In doing my research on your company, I've noticed that you work on many different types of projects for clients. I'm passionate about learning and expanding my knowledge base, and your company offers exposure to many different types of technologies.
 
 What are you looking for?
-  I'm looking to be part of a development team where I can apply my current skills and continue to learn from senior developer.
+  I'm looking to be part of a development team where I may apply my current skills on interesting project and continue to learn from senior developer.
 
 Why should I hire you?
   Not only do I have the skills to perform well in this job, but I have a degree in business administration and a prior career as a systems administrator. My time as an admin involved plenty of direct contact with internal and external customers, coworkers, and the public. I've found that I enjoy communicating with people and working on teams to build the best products achievable.

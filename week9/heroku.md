@@ -6,7 +6,11 @@ NOTE: Replace USERNAME with the lowercase form of your GitHub username.
 heroku apps:create USERNAME-trackify
 
 Inspect the properties of the production environment.
-heroku apps:info
+heroku apps:info chadlatham-trackify
+
+Add a git remote:
+git remote add heroku https://git.heroku.com/chadlatham-trackify.git
+git remote -v to verify remote status
 
 Display the version of Node.js on your development environment.
 node -v
@@ -17,12 +21,12 @@ Specify the exact version of Node.js on the production environment by adding the
 }
 
 Create a PostgreSQL database for the production environment.
-heroku addons:create heroku-postgresql
+heroku addons:create heroku-postgresql --app chadlatham-trackify
 
 Inspect the properties of the production database.
-heroku pg:info
+heroku pg:info --app chadlatham-trackify
 
-Specify the connection URL to the production database server by adding the following property to the package.json file.
+Specify the connection URL to the production database server by adding the following property to the package.json file. knex file??? not package.json
 "production": {
   "client": "pg",
   "connection": "process.env.DATABASE_URL"
@@ -32,6 +36,7 @@ Automatically migrate the production database after on deployment by adding the 
 "scripts": {
   "knex": "knex",
   "heroku-postbuild": "knex migrate:latest",
+  "heroku-postbuild": "brunch build --production", --- Necessary for React only!
   "nodemon": "nodemon server.js"
 }
 
@@ -85,9 +90,9 @@ heroku pg:psql
 add .env to the .gitignore file
 
 The below statements will generate secret keys on the local .env file and set an environment variable in the heroku environment. - Equivalent for production.
-`openssl rand -hex 64 | ruby -ne 'puts "SESSION_SECRET=" + $_' > .env
+<!-- openssl rand -hex 64 | ruby -ne 'puts "JWT_SECRET=" + $_' > .env -->
 
-heroku config:set SESSION_SECRET=(openssl rand -hex 64)`
+<!-- heroku config:set JWT_SECRET=(openssl rand -hex 64) -->
 
 If you add a .env file, you have to restart the server.
 
