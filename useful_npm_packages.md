@@ -30,3 +30,6 @@ dotenv - creates env variables from .env files. For security of api keys or sess
 express-validation - validates the following locations: req.body, req.params, req.query, req.header, req.cookies
 joi - the validation package for express-validation
 --------------------------------------------------------------------------------
+
+// To update Typings for typescript
+npm run typings install dt~hammerjs  -- --global --save
